@@ -5,7 +5,7 @@ It basically solves the problem $\min_P \|AP - PB\|$, where $P$ is optimized ove
 
 There are two functions, one is a C CUDA code and the other one is a Matlab wrapper to make it easier to run the code.
 
-The C CUDA code can run on a regualar CPU with the right choice of flag but it will be slow. In any case, it should be compiled using nvcc.
+The C CUDA code can run on a regualar CPU with the right choice of flag but it will be slow. Even if you do not have an NVIDIA GPU card, you need to install NVIDIA toolkit and compile the program using nvcc.
 
 The Matlab wrapper accepts as input two undirected graphs, the path to the compiled .cu file, and a flag, 0 or 1, depending on whether we want to a GPU or not. 
 
