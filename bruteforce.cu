@@ -1,6 +1,10 @@
-// in this code we do not use sparsity because the matrices are small any way
-// all matrices therefore are full. This actually makes the code faster
-// we assume that all the matrices are stored in a linear array, columns first
+// in this code we do not use sparsity because the matrices are small
+// all matrices therefore are full
+// we assume that all the matrices are stored in a linear array, in a column major form
+// the maximum graph size is set to 12 in the variable MAX_N_PERM but it can be increased if the GPU is more powerfull
+
+// TO-DO: change the code so that we can scan just a fraction of all the n! possible permutations.
+// This will allow using multiple GPUs in parallel
 
 
 #include<stdio.h>
