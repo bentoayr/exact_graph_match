@@ -1,7 +1,11 @@
 # exact_graph_match
 This repository is for a GPU-based brute force exact small graph matching and distance computation.
 
-It basically solves the problem <img src="https://latex.codecogs.com/svg.latex?\Large&space;{\min_{P}\|AP - PB\|}" title="\Large{\min_{P} \|AP - PB\|}" />, where $P$ is optimized over the set of all permutation matrices and $A$ and $B$ are the adjacency matrices of two graphs of equal size.
+It basically solves the problem 
+
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;{\min_{P}\|AP - PB\|}" title="\Large{\min_{P} \|AP - PB\|}" />
+
+, where $P$ is optimized over the set of all permutation matrices and $A$ and $B$ are the adjacency matrices of two graphs of equal size.
 
 
 
