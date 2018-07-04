@@ -1,5 +1,7 @@
 # exact_graph_match
-GPU based brute force exact small graph matching and distance computation
+This repository is for a GPU-based brute force exact small graph matching and distance computation.
+
+It basically solves the problem $\min_{P} \|AP - PB\|$, where $P$ is optimized over the set of all permutation matrices and $A$ and $B$ are the adjacency matrices of two graphs of equal size.
 
 
 There are two functions, one is a C CUDA code and the other one is a Matlab wrapper to make it easier to run the code.
